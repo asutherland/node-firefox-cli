@@ -29,6 +29,7 @@ for (var commandName in commands) {
   commands[commandName](program, init);
 }
 
+
 // Export the CLI driver to bootstrap script
 module.exports = function() {
   program.parse(process.argv);
